@@ -1,0 +1,30 @@
+# Datos privados del usuario (credenciales, sesión, índice y archivos bajados)
+data/
+Descargas Telegram/
+*.session
+*.session-journal
+*.log
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Empaquetado
+build/
+dist/
+*.spec
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.tmp
+*.swp
